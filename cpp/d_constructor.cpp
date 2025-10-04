@@ -3,7 +3,8 @@ using namespace std;
 class emp{
     public:int a;
     emp(){
-        a=40;
+        cout<<"enter value of a=";
+        cin>>a;
     }
     public:void show(){
         cout<<"value a is="<<a<<endl;
